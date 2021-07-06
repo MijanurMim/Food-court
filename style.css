@@ -16,6 +16,7 @@ h1 {
 }
 h2 {
   font-size: 40px;
+  color: rgb(43, 40, 40);
 }
 .site-name-color {
   color: rgba(247, 166, 17, 0.808);
@@ -97,7 +98,8 @@ h2 {
 /* button area */
 .order-button {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
+  background-image: linear-gradient(to right, orange, tomato);
+
   box-shadow: 10px 10px 20px rgba(226, 188, 118, 0.74);
 
   padding: 30px 60px;
@@ -112,4 +114,26 @@ h2 {
 .devider {
   display: inline-block;
   margin-top: 40px;
+}
+
+/* reciepe card area */
+.reciepe-info {
+  text-align: center;
+  font-weight: bold;
+}
+.recipie-template {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.reciepe-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+}
+.container {
+  font-size: 20px;
 }
