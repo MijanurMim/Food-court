@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* Header area*/
+header{
+  font-size: 25px;
+ 
+  
+}
+.navbar{
+  
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(254, 246, 237);
+
+  margin-bottom: 100px;
+
+  padding: 60px;
+  /* box-shadow: 10px 10px 20px rgb(254, 246, 237); */
+  
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 12px;
+  color: rgb(109, 105, 105);
+}
+
+.navbar a:hover{
+  color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  font-size: 60px;
+}
+.site-name-color {
+  color: rgba(247, 166, 17, 0.808);
+}
+
+.felxible-containers {
+  display: flex;
+  margin-bottom: 100px;
+}
+.width-top-section {
+  width: 50%;
+}
+.width-top-section img {
+  width: 10%;
+}
+
+.top-banner {
+  background-image: url(images/shapes/topbanner.jpg);
+  background-repeat: no-repeat;
+}
+
+.top {
+  color: rgb(109, 105, 105);
+}
+.top h1 {
+  color: rgb(68, 65, 65);
+}
+
+
+
