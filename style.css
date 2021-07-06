@@ -4,52 +4,12 @@ body {
   box-sizing: border-box;
 }
 
-
 /* Header area*/
-header{
+header {
   font-size: 25px;
- 
-  
-}
-.navbar{
-  
-  text-decoration: none;
-  text-align: center;
-  background-color: rgb(254, 246, 237);
-
-  margin-bottom: 100px;
-
-  padding: 60px;
-  /* box-shadow: 10px 10px 20px rgb(254, 246, 237); */
-  
-  
 }
 
-.navbar a {
-  text-decoration: none;
-  padding: 12px;
-  color: rgb(109, 105, 105);
-}
-
-.navbar a:hover{
-  color: orange;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* top area  */
 
 h1 {
   font-size: 60px;
@@ -60,13 +20,13 @@ h1 {
 
 .felxible-containers {
   display: flex;
-  margin-bottom: 100px;
 }
 .width-top-section {
   width: 50%;
+  padding-left: 5%;
 }
 .width-top-section img {
-  width: 10%;
+  width: 50%;
 }
 
 .top-banner {
@@ -75,11 +35,82 @@ h1 {
 }
 
 .top {
-  color: rgb(109, 105, 105);
+  color: rgb(126, 122, 122);
 }
 .top h1 {
-  color: rgb(68, 65, 65);
+  color: rgb(70, 70, 70);
 }
 
+/* navbar area */
+.navbar {
+  text-decoration: none;
+  text-align: center;
+  background-color: rgb(254, 246, 237);
 
+  margin-bottom: 100px;
 
+  padding: 60px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 12px;
+  color: rgb(109, 105, 105);
+}
+
+.navbar a:hover {
+  color: orange;
+}
+
+/* top area  */
+
+h1 {
+  font-size: 60px;
+}
+.site-name-color {
+  color: rgba(247, 166, 17, 0.808);
+}
+
+.felxible-containers {
+  display: flex;
+  /* margin-bottom: 100px; */
+}
+.width-top-section {
+  width: 50%;
+  padding-left: 5%;
+}
+.width-top-section img {
+  width: 50%;
+}
+
+.top-banner {
+  background-image: url(images/shapes/topbanner.jpg);
+  background-repeat: no-repeat;
+}
+
+.top {
+  color: rgb(126, 122, 122);
+}
+.top h1 {
+  color: rgb(70, 70, 70);
+}
+
+/* button area */
+.order-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  box-shadow: 10px 10px 20px rgba(226, 188, 118, 0.74);
+
+  padding: 30px 60px;
+  border-radius: 67px;
+  font-size: 20px;
+  color: white;
+}
+.order-button:hover {
+  color: rgb(126, 122, 122);
+}
+
+.devider {
+  display: inline-block;
+  margin-top: 40px;
+}
