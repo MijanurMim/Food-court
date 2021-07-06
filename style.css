@@ -14,19 +14,23 @@ header {
 h1 {
   font-size: 60px;
 }
+h2 {
+  font-size: 40px;
+}
 .site-name-color {
   color: rgba(247, 166, 17, 0.808);
 }
 
 .felxible-containers {
   display: flex;
+  margin-bottom: 150px;
 }
 .width-top-section {
   width: 50%;
   padding-left: 5%;
 }
 .width-top-section img {
-  width: 50%;
+  width: 90%;
 }
 
 .top-banner {
@@ -34,11 +38,28 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.top {
-  color: rgb(126, 122, 122);
+/* mid area */
+
+.width-mid-section {
+  align-items: center;
+  width: 50%;
+  padding-right: 5%;
 }
-.top h1 {
-  color: rgb(70, 70, 70);
+
+.mid-banner-positon {
+  align-items: center;
+  margin-top: 180px;
+}
+.width-mid-section img {
+  width: 58%;
+  padding-left: 247px;
+}
+
+.mid-banner {
+  background-image: url(images/shapes/7.png);
+
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 /* navbar area */
@@ -62,36 +83,14 @@ h1 {
   color: orange;
 }
 
-/* top area  */
-
-h1 {
-  font-size: 60px;
-}
+/* color area */
 .site-name-color {
   color: rgba(247, 166, 17, 0.808);
 }
-
-.felxible-containers {
-  display: flex;
-  /* margin-bottom: 100px; */
-}
-.width-top-section {
-  width: 50%;
-  padding-left: 5%;
-}
-.width-top-section img {
-  width: 50%;
-}
-
-.top-banner {
-  background-image: url(images/shapes/topbanner.jpg);
-  background-repeat: no-repeat;
-}
-
-.top {
+.text-color {
   color: rgb(126, 122, 122);
 }
-.top h1 {
+.text-color h1 {
   color: rgb(70, 70, 70);
 }
 
