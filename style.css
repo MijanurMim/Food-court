@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Nunito", sans-serif;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
@@ -102,7 +103,7 @@ h2 {
 
   box-shadow: 10px 10px 20px rgba(226, 188, 118, 0.74);
 
-  padding: 30px 60px;
+  padding: 28px 60px;
   border-radius: 67px;
   font-size: 20px;
   color: white;
@@ -151,4 +152,22 @@ h2 {
 .items {
   margin-left: 16px;
   margin-right: 262px;
+}
+
+/* footer area */
+footer {
+  background-color: rgb(11, 13, 23);
+  height: 300px;
+  margin-top: 150px;
+  text-align: center;
+}
+.footer-item-position {
+  padding-top: 60px;
+}
+
+footer div h3 {
+  color: rgba(240, 255, 255, 0.842);
+}
+footer div p {
+  color: orange;
 }
