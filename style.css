@@ -130,10 +130,25 @@ h2 {
   max-width: 400px;
   margin-left: 30px;
   margin-right: 30px;
-  text-align: center;
+  text-align: left;
   border-radius: 30px;
   padding: 20px;
 }
 .container {
   font-size: 20px;
+}
+
+/* Social media area */
+.social-media {
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 8px 40px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 226px;
+  margin-right: 226px;
+  align-content: center;
+  border-radius: 25px;
+}
+.items {
+  margin-left: 16px;
+  margin-right: 262px;
 }
